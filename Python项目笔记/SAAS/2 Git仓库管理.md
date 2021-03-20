@@ -100,7 +100,7 @@ git commit -m 'requirements'
 git push origin master
 ```
 
-![image-20210302002551945](C:\Users\gong\AppData\Roaming\Typora\typora-user-images\image-20210302002551945.png)
+![image-20210302002551945](https://gitee.com/gonghaochen/blogimg/raw/master/img/20210320173454.png)
 
 ```python
 # 如果你想要保留本地当前改动：
@@ -110,7 +110,7 @@ git push -u origin master
 git reset --hard origin/master
 ```
 
-![image-20210302002606253](C:\Users\gong\AppData\Roaming\Typora\typora-user-images\image-20210302002606253.png)
+![image-20210302002606253](https://gitee.com/gonghaochen/blogimg/raw/master/img/20210320173503.png)
 
 若是提示：error: remote origin already exists. 如果远程仓库已经改名
 
@@ -119,3 +119,9 @@ git remote rm origin
 ```
 
 ![image-20210302003217535](C:\Users\gong\AppData\Roaming\Typora\typora-user-images\image-20210302003217535.png)
+
+git push origin master时，若提示：! [rejected]        master -> master (fetch first)
+
+```
+git push -u origin master -f
+```
