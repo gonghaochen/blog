@@ -19,7 +19,7 @@ git软件，本地进行版本管理
 https://gitee.com/gonghaochen/saas.git
 ```
 
-![image-20210228174315075](https://gitee.com/gonghaochen/noteimg/raw/master/img/20210320165742.png)
+![image-20210301232843241](https://gitee.com/gonghaochen/blogimg/raw/master/img/20210320194510.png)
 
 #### 2.2 Git代码推送到远程仓库
 
@@ -125,3 +125,4 @@ git push origin master时，若提示：! [rejected]        master -> master (fe
 ```
 git push -u origin master -f
 ```
+
