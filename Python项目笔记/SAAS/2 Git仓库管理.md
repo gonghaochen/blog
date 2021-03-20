@@ -122,7 +122,7 @@ git remote rm origin
 
 git push origin master时，若提示：! [rejected]        master -> master (fetch first)
 
-```
+```python
 git push -u origin master -f
 ```
 
