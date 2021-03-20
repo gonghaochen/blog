@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: upload
+
 ---
 
 .gitignore的作用？
@@ -118,7 +118,7 @@ git reset --hard origin/master
 git remote rm origin
 ```
 
-![image-20210302003217535](C:\Users\gong\AppData\Roaming\Typora\typora-user-images\image-20210302003217535.png)
+![image-20210302003217535](https://gitee.com/gonghaochen/blogimg/raw/master/img/20210320193201.png)
 
 git push origin master时，若提示：! [rejected]        master -> master (fetch first)
 
