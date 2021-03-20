@@ -126,4 +126,9 @@ git push origin master时，若提示：! [rejected]        master -> master (fe
 git push -u origin master -f
 ```
 
-test
+git 不加注释
+
+```python
+git commit --allow-empty-message -m ""
+```
+
