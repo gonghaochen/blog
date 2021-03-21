@@ -2,6 +2,8 @@
 
 ---
 
+[toc]
+
 .gitignore的作用？
 
 ```python
@@ -11,9 +13,9 @@ git软件，本地进行版本管理
     git commit
 码云/github/gitlab,代码托管
 ```
-### 2. Git仓库管理
+## 2. Git仓库管理
 
-#### 2.1 创建gitee账号和远程仓库
+### 2.1 创建gitee账号和远程仓库
 
 ```python
 https://gitee.com/gonghaochen/saas.git
@@ -21,7 +23,7 @@ https://gitee.com/gonghaochen/saas.git
 
 ![image-20210301232843241](https://gitee.com/gonghaochen/blogimg/raw/master/img/20210320194510.png)
 
-#### 2.2 Git代码推送到远程仓库
+### 2.2 Git代码推送到远程仓库
 
 .gitignore内容
 
@@ -130,5 +132,26 @@ git 不加注释
 
 ```python
 git commit --allow-empty-message -m ""
+```
+
+### 2.3同时推送到github和gitee
+
+```python
+# 已经将代码上传到gitee 名字为origin
+# 查看关联的远程仓库的名字
+git remote 
+>>>origin
+# 查看关联的远程仓库地址
+git remote -v
+>>>origin  https://gitee.com/gonghaochen/blog.git (fetch)
+>>>origin  https://gitee.com/gonghaochen/blog.git (push)
+# 重命名
+git remote rename origin gitee
+>>>gitee   https://gitee.com/gonghaochen/blog.git (fetch)
+>>>gitee   https://gitee.com/gonghaochen/blog.git (push)
+# 关联 github远程仓库
+git remote add github https://github.com/gonghaochen/blog.git
+# 将代码推送
+git push github master
 ```
 
