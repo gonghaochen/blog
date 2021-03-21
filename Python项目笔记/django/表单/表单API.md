@@ -1,3 +1,5 @@
+[toc]
+
 ## 绑定和非绑定表单
 
 一个 [`Form`](https://docs.djangoproject.com/zh-hans/3.1/ref/forms/api/#django.forms.Form) 实例要么是 **绑定** 到一组数据，要么是 **未绑定**。
