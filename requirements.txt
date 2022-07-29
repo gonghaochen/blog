@@ -1,2 +1,2 @@
 bokeh==2.4.3
-mysql-connector==8.0.29
+mysql-connector==2.2.9
