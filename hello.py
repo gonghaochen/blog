@@ -29,7 +29,11 @@ st.dataframe(df)  # Same as st.write(df)
 # Uses st.experimental_singleton to only run once.
 @st.experimental_singleton
 def init_connection():
-    return mysql.connector.connect(**st.secrets["mysql"])
+    return mysql.connector.connect(
+         host="localhost",
+         user="root",
+         passwd="root",
+         database="enegry") #(**st.secrets["mysql"])
 
 conn = init_connection()
 
