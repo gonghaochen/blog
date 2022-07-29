@@ -33,9 +33,13 @@ def init_connection():
          host="localhost",
          user="root",
          passwd="root",
-         database="enegry") #(**st.secrets["mysql"])
+         database="enegry")
 
-conn = init_connection()
+conn = mysql.connector.connect(
+         host="localhost",
+         user="root",
+         passwd="root",
+         database="enegry")
 
 # Perform query.
 # Uses st.experimental_memo to only rerun when the query changes or after 10 min.
